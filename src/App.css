@@ -36,3 +36,120 @@
     transform: rotate(360deg);
   }
 }
+
+.nav-bar{
+  color:azure;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding:20px;
+}
+
+.align-right{
+  text-align: right;
+}
+
+.navbar {
+  background: white;
+  grid-area: nav;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px 0 30px;
+  border-bottom: 1px solid lightgray;
+}
+
+.navbar__left {
+  margin-right: 30px;
+  text-decoration: none;
+  color: #373e42;
+  font-size: 3vw;
+  font-weight: 600;
+}
+
+.navbar__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logout{
+  color: rgb(211, 31, 31);
+  font-size:2.5vw;
+}
+
+#sidebar {
+  background: black;
+  grid-area: sidebar;
+  overflow-y: auto;
+  height: 100vh;
+  color:cornsilk;
+  text-align: center;
+  padding: 20px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.sidebar__title{
+  font-size: 2.5vw;
+}
+
+.sidebar__link {
+  color: #f3f4f6;
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  font-size: 2vw;
+}
+.text-muted{
+  color: rgb(85, 84, 84); 
+}
+
+.card-info{
+  border:2px solid black;
+  box-shadow: 0.5rem 0.5rem 0.5rem black;
+}
+
+.p-card-text{
+  font-family: cursive;
+  font-size: 25px;
+}
+
+.card-count{
+  border:none;
+}
+
+.card-title{
+  text-align: center;
+  padding:10px;
+  font-size: 30px;
+  font-family: cursive;
+}
+
+.card-circle{
+  border-radius: 50%;
+  text-align: center;
+  width: 50%;
+  height:50%;
+  margin:auto;
+  padding-top:80px;
+  padding-bottom:80px;
+  border:10px solid black;
+}
+
+.heading{
+  font-family: cursive;
+  background-color: rgb(224, 73, 73);
+  text-align: center;
+  padding: 20px;
+}
+
+.btn-main{
+  width:50%;
+  font-weight: bolder;
+  border-radius: 40px;
+}
+
+.text-color{
+  color:black;
+}
+
