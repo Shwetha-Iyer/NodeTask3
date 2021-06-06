@@ -21,7 +21,7 @@ export default function Accountactivate(props){
     return<>
         {
             status === ""? <div> Please Wait loading....</div>:
-            status !== "200"? <div> Hmm looks like this account is already activated</div> : history.pushState("/login")
+            status !== "200"? <div> Hmm looks like this account is already activated</div> : history.push("/login")
         }
 
     </>
