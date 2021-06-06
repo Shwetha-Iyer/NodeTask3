@@ -42,9 +42,10 @@ export default function Login(){
           "Content-type": "application/json",
         },
       });
-      let data = await check.json();
-      if(check.status===200)
-     history.push(`/dashboard/${data.id}`);
+      if(check.status===200){
+        let data = await check.json();
+        history.push(`/dashboard/${data.id}`);
+      }
      else{
         setLogfail("Wrong Email or Password!");
      }
