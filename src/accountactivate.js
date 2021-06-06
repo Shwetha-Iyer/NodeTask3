@@ -6,7 +6,7 @@ export default function Accountactivate(props){
     useEffect(()=>{
         async function fetchdata(token){
             let check = await fetch(`https://nodetask3-backend.herokuapp.com/activateaccount/${token}`,{
-                method: "POST",
+                method: "PUT",
                 headers: {
                     "Content-type": "application/json",
                 }
