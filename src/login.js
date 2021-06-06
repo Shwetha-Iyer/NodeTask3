@@ -46,6 +46,9 @@ export default function Login(){
         let data = await check.json();
         history.push(`/dashboard/${data.id}`);
       }
+        else if(check.status===400){
+        setLogfail("Account not activatd");
+      }
      else{
         setLogfail("Wrong Email or Password!");
      }
